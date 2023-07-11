@@ -1,10 +1,8 @@
 const mongoose = require("mongoose"); // Importing Mongoose
 
 // connecting our databse 
-mongoose.connect("mongodb://127.0.0.1:27017/E-commerce-API",{
-    useNewUrlParser : true,
-    useUnifiedTopology: true,
-});
+mongoose.connect("mongodb+srv://aagm0404:Simraj0404@cluster0.aorlgqo.mongodb.net/?retryWrites=true&w=majority")
+
 
 const db = mongoose.connection; // creating connnection
 
